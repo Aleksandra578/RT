@@ -1,5 +1,5 @@
 class Settings:
-    chrome_driver = "C:\Users\Александра\PycharmProjects\RT.exe"
+    chrome_driver = "C:\Users\Александра\PycharmProjects\RT.msedgedriver.exe"
     base_url = 'https://b2c.passport.rt.ru'
     valid_email = 'aleksandravoron-01@yandex.ru'
     valid_password = '22Aleks2024!'
