@@ -22,7 +22,6 @@ class RegistrPage(BasePage):
         self.container_f_name = driver.find_element(*AuthLocators.container_f_name)
         self.container_l_name = driver.find_element(*AuthLocators.container_l_name)
         self.container_region = driver.find_element(*AuthLocators.container_region)
-    #    self.container_region_confirm = driver.find_element(*AuthLocators.container_region_confirm)
         self.container_passw_confirm = driver.find_element(*AuthLocators.container_passw_confirm)
 
     def find_other_element(self, by, location):
