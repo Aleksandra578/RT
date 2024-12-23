@@ -59,7 +59,7 @@ def test_registr_by_valid_data(selenium):
     page_reg.last_name.clear()
     page_reg.container_region.click()
     page_reg.driver.find_element(By.XPATH, "//section[@id='page-right']/div/div/div/form/div[2]/div[2]/div[2]"
-                                           "/div/div[18]").click()
+                                           "/div/div[78]").click()
     page_reg.email_registration.send_keys(Settings.valid_email_for_reg)
     page_reg.email_registration.clear()
     page_reg.passw_registration.send_keys(Settings.valid_password)
@@ -80,7 +80,7 @@ def test_registr_by_valid_data_(selenium):
     page_reg.last_name.clear()
     page_reg.container_region.click()
     page_reg.driver.find_element(By.XPATH, "//section[@id='page-right']/div/div/div/form/div[2]/div[2]/div[2]"
-                                           "/div/div[18]").click()
+                                           "/div/div[78]").click()
     page_reg.email_registration.send_keys(Settings.valid_email_for_reg)
     page_reg.email_registration.clear()
     page_reg.passw_registration.send_keys(Settings.valid_password)
@@ -105,7 +105,7 @@ def test_registr_by_invalid_data(selenium):
     page_reg.last_name.clear()
     page_reg.container_region.click()
     page_reg.driver.find_element(By.XPATH, "//section[@id='page-right']/div/div/div/form/div[2]/div[2]/div[2]"
-                                           "/div/div[18]").click()
+                                           "/div/div[78]").click()
 
     page_reg.email_registration.send_keys(Settings.valid_email)
     page_reg.email_registration.clear()
