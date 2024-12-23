@@ -14,7 +14,7 @@ class Settings:
     l_name = 'Воронцова'
     f_name_ = '-'
     l_name_ = '-'
-    region_ = 'Удмуртская Республика'
+    region_ = 'Удмуртская Респ'
     russian_generate_string = 'У'
     latin_generate_string = 'llkjdvbn'
     chinese_chars = '会汉么样会'
